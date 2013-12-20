@@ -1,0 +1,22 @@
+/* XPM */
+static char * a_playpause_xpm[] = {
+"16 16 3 1",
+" 	c None",
+".	c #eeeeee",
+"X	c #eaeaea",
+"                ",
+"                ",
+"  .      .X .X  ",
+"  .X     .X .X  ",
+"  .XX    .X .X  ",
+"  .XXX   .X .X  ",
+"  .XXXX  .X .X  ",
+"  .XXXXX .X .X  ",
+"  .XXXXX .X .X  ",
+"  .XXXX  .X .X  ",
+"  .XXX   .X .X  ",
+"  .XX    .X .X  ",
+"  .X     .X .X  ",
+"  .      .X .X  ",
+"                ",
+"                "};

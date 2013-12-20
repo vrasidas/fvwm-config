@@ -1,0 +1,45 @@
+# -*- conf -*-
+background yes
+use_xft yes
+xftfont DejaVu Sans:size=9:family=dejavusans
+xftalpha 0.5
+update_interval 2
+total_run_times 0
+own_window yes
+own_window_type normal
+own_window_title ConkyMusic
+own_window_class ConkyMusic
+own_window_transparent no
+own_window_hints below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+imlib_cache_size 0
+minimum_size 126 174
+maximum_width 126
+#draw_graph_borders yes
+draw_borders no
+draw_shades no
+#draw_outlines no
+border_inner_margin 0
+border_outer_margin 0
+border_width 0
+#stippled_borders yes
+#default_outline_color 000000
+default_shade_color 000000
+own_window_colour 1e1e1e
+default_color f1f1f1
+color1 4a90f9
+color2 aaaaaa
+alignment bottom_right
+gap_x 5
+gap_y 5
+#no_buffers yes
+#cpu_avg_samples 2
+#default_bar_size 0 4
+override_utf8_locale yes
+template0 $alignc${execi 5 awk 'BEGIN { FS = "\1=" } ; /^\1=/ { print $2 }' ~/.quodlibet/current}
+TEXT
+${if_existing .quodlibet/current}${font :size=9:weight=bold:family=dejavusans}${execi 10 convert .fvwm/coverback128.png .quodlibet/current.cover -scale 128x128 -gravity Center -composite .fvwm/quodcover.jpg}$color${template0 title}
+${image .fvwm/quodcover.jpg -p 0,15 -s 128x128 -n}
+$color${voffset 125}${font :size=9:family=dejavusans}${template0 artist}
+${font :size=8:family=dejavusanscondensed}${template0 album}
+${color1}${voffset 2}${execbar echo $(( $(qdbus org.mpris.MediaPlayer2.quodlibet /Player org.freedesktop.MediaPlayer.PositionGet) / $(qdbus org.mpris.MediaPlayer2.quodlibet /TrackList org.freedesktop.MediaPlayer.GetMetadata 0|grep -E "^time: " |sed 's/^time: //') / 10 ))}$endif

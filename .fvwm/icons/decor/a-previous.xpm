@@ -1,0 +1,22 @@
+/* XPM */
+static char * a_previous_xpm[] = {
+"16 16 3 1",
+" 	c None",
+".	c #eeeeee",
+"X	c #eaeaea",
+"                ",
+"                ",
+"       .     .  ",
+"      X.    X.  ",
+"     XX.   XX.  ",
+"    XXX.  XXX.  ",
+"   XXXX. XXXX.  ",
+"  XXXXX.XXXXX.  ",
+"  XXXXX.XXXXX.  ",
+"   XXXX. XXXX.  ",
+"    XXX.  XXX.  ",
+"     XX.   XX.  ",
+"      X.    X.  ",
+"       .     .  ",
+"                ",
+"                "};

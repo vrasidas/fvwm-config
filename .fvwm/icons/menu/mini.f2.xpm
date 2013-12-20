@@ -1,0 +1,23 @@
+/* XPM */
+static char * mini_f2_xpm[] = {
+"16 16 4 1",
+" 	s None	c None",
+".	c #ffc3c3",
+"X	c #d30101",
+"o	c black",
+"                ",
+"                ",
+"   ..........X  ",
+"   .XXXXXXXXXo  ",
+"   .XXXXXXXXXo  ",
+"   .XXoooooooo  ",
+"   .XXo         ",
+"   .XXX...X     ",
+"   .XXXXXXo     ",
+"   .XXXXXXo     ",
+"   .XXooooo     ",
+"   .XXo         ",
+"   .XXo         ",
+"   .XXo         ",
+"   oooo         ",
+"                "};

@@ -1,0 +1,10 @@
+Programs embeded in FvwmButtons:
+
+pclock, wmclock, wmweather, wmbiff, xload, wmcpu, wmforkplop, wmnd, wmhdplop
+stalonetray and a conky.
+
+I include the bare minimum icons to have the buttonbar and menus working, most
+come from gnome-colors, some I made myself with pixmap or copy-pasted them
+to existence in the gimp.
+
+The gtk theme is a slightly darker version of Evolve.
