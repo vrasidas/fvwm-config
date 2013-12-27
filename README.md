@@ -15,3 +15,5 @@ I have been butchering it ever since.
 screenshots of the Evolve-Grayer version are at http://imgur.com/a/PCm9D
 
 ![Screenshot](./scrot-NG.png)
+
+![Screenshot](./scrot-FF.png)
