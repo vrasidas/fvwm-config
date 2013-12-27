@@ -15,13 +15,13 @@ Colorset 6 VGradient 100 rgb:24/24/24 rgb:2e/2e/2e, fg rgb:ff/ff/ff, hi rgb:24/2
 # borders
 Colorset 7 bg rgb:2a/2a/2a, fg rgb:ff/ff/ff, hi rgb:24/24/24, sh rgb:0a/0a/0a
 # pager background, inactive desktops
-Colorset 8 bg rgb:2a/2a/2a, fg rgb:88/88/88, \
+Colorset 8 bg rgb:2d/2d/2d, fg rgb:88/88/88, \
            TiledPixmap desktops/pager/alpha-lightgray.svg
-Colorset 9 bg rgb:2a/2a/2a, fg rgb:88/88/88, \
+Colorset 9 bg rgb:2d/2d/2d, fg rgb:88/88/88, \
            TiledPixmap desktops/pager/beta-lightgray.svg
-Colorset 10 bg rgb:2a/2a/2a, fg rgb:88/88/88, \
+Colorset 10 bg rgb:2d/2d/2d, fg rgb:88/88/88, \
             TiledPixmap desktops/pager/gamma-lightgray.svg
-Colorset 11 bg rgb:2a/2a/2a, fg rgb:88/88/88, \
+Colorset 11 bg rgb:2d/2d/2d, fg rgb:88/88/88, \
             TiledPixmap desktops/pager/delta-lightgray.svg
 # Default decor, light colored windows
 # inactive titles
@@ -45,7 +45,7 @@ Colorset 19 VGradient 100 rgb:2e/2e/2e rgb:2d/2d/2d, fg rgb:ee/ee/ee
 # Default decor, pressed down titles
 Colorset 20 VGradient 100 rgb:bb/bb/bb rgb:cf/cf/cf, fg rgb:00/00/00
 #balloons, fvwmbuttons normal
-Colorset 21 SGradient 20 rgb:2d/2d/2d rgb:28/28/28, fg rgb:dd/dd/dd, hi rgb:2f/2f/2f, sh rgb:18/18/18
+Colorset 21 SGradient 20 rgb:2e/2e/2e rgb:2c/2c/2c, fg rgb:dd/dd/dd, hi rgb:2f/2f/2f, sh rgb:18/18/18
 #fvwmbuttons hilighted
 Colorset 22 CGradient 20 rgb:20/20/20 rgb:2d/2d/2d, fg rgb:dd/dd/dd, hi rgb:2f/2f/2f, sh rgb:10/10/10
 #fvwmform
