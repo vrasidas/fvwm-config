@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=NumixGray
+Comment=A flat theme with a modern look
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=NumixGray
+MetacityTheme=NumixGray
+ButtonLayout=:minimize,maximize,close

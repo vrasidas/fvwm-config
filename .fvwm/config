@@ -37,57 +37,9 @@ DesktopName 2 Media
 DesktopName 3 Misc
 
 CleanupColorsets
-Colorset 0 bg rgb:14/14/14, fg rgb:dd/dd/dd, hi rgb:24/24/24, sh rgb:0a/0a/0a, fgsh rgb:55/88/ee
-# inactive buttons, title ################################
-Colorset 1 VGradient 100 rgb:18/18/18 rgb:14/14/14, fg rgb:88/88/88, hi rgb:24/24/24, sh rgb:0a/0a/0a
-# this is mostly my all purpose hilightcolorset, active terminal titles 
-Colorset 2 VGradient 30 rgb:69/98/f6 rgb:42/77/e3, fg rgb:ff/ff/ff
-# menu
-Colorset 3 bg rgb:2d/2d/2d, fg rgb:de/de/de, hi rgb:33/33/33, sh rgb:20/20/20
-# smallpager hilight, inactive terminal titles
-Colorset 4 VGradient 100 rgb:18/18/18 rgb:14/14/14, fg rgb:88/88/88
-# icons
-Colorset 5  bg rgb:14/14/14, pixmap IconBG-AS.xpm
-# pressed down terminal titles
-Colorset 6 VGradient 100 rgb:1a/1a/1a rgb:3e/3e/3e, fg rgb:ff/ff/ff, hi rgb:24/24/24, sh rgb:0a/0a/0a
-# borders
-Colorset 7 bg rgb:2a/2a/2a, fg rgb:ff/ff/ff, hi rgb:24/24/24, sh rgb:0a/0a/0a
-# pager background, inactive desktops
-Colorset 8 bg rgb:2a/2a/2a, fg rgb:88/88/88, \
-           TiledPixmap pager/alpha-lightgray.svg
-Colorset 9 bg rgb:2a/2a/2a, fg rgb:88/88/88, \
-           TiledPixmap pager/beta-lightgray.svg
-Colorset 10 bg rgb:2a/2a/2a, fg rgb:88/88/88, \
-            TiledPixmap pager/gamma-lightgray.svg
-Colorset 11 bg rgb:2a/2a/2a, fg rgb:88/88/88, \
-            TiledPixmap pager/delta-lightgray.svg
-# Default decor, light colored windows
-# inactive titles
-Colorset 12 VGradient 100 rgb:cc/cc/cc rgb:b3/b2/b1, fg rgb:88/88/88
-# active titles
-Colorset 13 VGradient 100 rgb:cc/cc/cc rgb:b3/b2/b1, fg rgb:10/10/10
-# pager background, active desktop
-Colorset 14 bg rgb:eb/eb/eb, fg rgb:10/10/10, \
-            TiledPixmap pager/alpha-red.svg
-Colorset 15 bg rgb:eb/eb/eb, fg rgb:10/10/10, \
-            TiledPixmap pager/beta-red.svg
-Colorset 16 bg rgb:eb/eb/eb, fg rgb:10/10/10, \
-            TiledPixmap pager/gamma-red.svg
-Colorset 17 bg rgb:eb/eb/eb, fg rgb:10/10/10, \
-            TiledPixmap pager/delta-red.svg
-# Decor darkapps for gtk3 apps using gtk-dark.css style
-# inactive titles
-Colorset 18 VGradient 100 rgb:3a/3a/3a rgb:33/33/33, fg rgb:88/88/88
-# active titles
-Colorset 19 VGradient 100 rgb:3a/3a/3a rgb:33/33/33, fg rgb:ee/ee/ee
-# Default decor, pressed down titles
-Colorset 20 VGradient 100 rgb:bb/bb/bb rgb:ef/ef/ef, fg rgb:00/00/00
-#balloons, fvwmbuttons normal
-Colorset 21 SGradient 20 rgb:22/22/22 rgb:14/14/14, fg rgb:dd/dd/dd, hi rgb:20/20/20, sh rgb:10/10/10
-#fvwmbuttons hilighted
-Colorset 22 CGradient 20 rgb:14/14/14 rgb:22/22/22, fg rgb:dd/dd/dd, hi rgb:20/20/20, sh rgb:10/10/10
-#fvwmform
-Colorset 23 bg rgb:14/14/14, fg rgb:dd/dd/dd, sh rgb:10/10/10, hi rgb:20/20/20
+#SetEnv fvwm_theme Evolve-Greyer
+SetEnv fvwm_theme NumixGray
+Read $[fvwm_theme]
 
 DestroyModuleConfig FvwmBacker: *
 *FvwmBacker: Command (Desk 0) Exec feh --bg-fill $[FVWM_USERDIR]/wallpapers/pattern01.png
