@@ -7,7 +7,7 @@ I include the bare minimum icons to have the buttonbar and menus working, most
 come from gnome-colors, some I made myself with pixmap or copy-pasted them
 to existence in the gimp.
 
-The gtk themes are a darker versions of *Evolve* and *Numix White*.
+The gtk themes are darker versions of *Evolve* and *Numix White*.
 
 The config was originally taken from the FVWM starter's kit two years ago.
 I have been butchering it ever since.
