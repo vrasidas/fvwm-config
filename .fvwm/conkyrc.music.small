@@ -25,9 +25,9 @@ border_width 0
 #stippled_borders yes
 #default_outline_color 000000
 default_shade_color 000000
-own_window_colour 1e1e1e
+own_window_colour 2d2d2d
 default_color f1f1f1
-color1 4a90f9
+color1 407390
 color2 aaaaaa
 alignment bottom_right
 gap_x 5
