@@ -42,10 +42,10 @@ SetEnv fvwm_theme NumixGray
 Read $[fvwm_theme]
 
 DestroyModuleConfig FvwmBacker: *
-*FvwmBacker: Command (Desk 0) Exec feh --bg-fill $[FVWM_USERDIR]/wallpapers/pattern01.png
-*FvwmBacker: Command (Desk 1) Exec feh --bg-fill $[FVWM_USERDIR]/wallpapers/pattern02.png
-*FvwmBacker: Command (Desk 2) Exec feh --bg-fill $[FVWM_USERDIR]/wallpapers/pattern03.png
-*FvwmBacker: Command (Desk 3) Exec feh --bg-fill $[FVWM_USERDIR]/wallpapers/pattern04.png
+*FvwmBacker: Command (Desk 0) Exec feh --bg-tile $[FVWM_USERDIR]/wallpapers/tile01.png
+*FvwmBacker: Command (Desk 1) Exec feh --bg-tile $[FVWM_USERDIR]/wallpapers/tile02.png
+*FvwmBacker: Command (Desk 2) Exec feh --bg-tile $[FVWM_USERDIR]/wallpapers/tile03.png
+*FvwmBacker: Command (Desk 3) Exec feh --bg-tile $[FVWM_USERDIR]/wallpapers/tile04.png
 
 DestroyFunc StartFunction
 AddToFunc StartFunction
