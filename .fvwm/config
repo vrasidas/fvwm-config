@@ -1025,7 +1025,7 @@ Style "FvwmScript" NoTitle, Handles, Sticky, WindowListSkip, \
                    CirculateSkip, !FixedPosition, FixedSize, Iconifiable, \
                    StaysOnBottom
 Style fvwm_menu !Button 4, UseStyle NoMax, Sticky, !Handles, \
-                Icon menu.svg, !Title
+                Icon menu.svg, !Title, UseStyle DarkApps
 Emulate Mwm
 
 DestroyModuleConfig FE-StartMaximized: *
