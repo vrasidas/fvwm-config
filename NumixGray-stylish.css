@@ -16,7 +16,7 @@
 	border-radius:0!important;
 	}
 .tabbrowser-tab[selected="true"]{
-    color:#555555!important;
+    color:#101010!important;
     padding: 4px 9px 0px 10px!important;
 	background:#bfbfbf -moz-linear-gradient(top,#407390 2px,#bfbfbf 1px)!important;
 	background-repeat: no-repeat!important;
